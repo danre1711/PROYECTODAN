@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>726</width>
-    <height>397</height>
+    <width>661</width>
+    <height>439</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QLabel" name="LbNombre">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>40</y>
+      <x>110</x>
+      <y>120</y>
       <width>71</width>
       <height>20</height>
      </rect>
@@ -30,8 +30,8 @@
    <widget class="QLabel" name="LbApellido">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>80</y>
+      <x>110</x>
+      <y>150</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -43,8 +43,8 @@
    <widget class="QLabel" name="LbCedula">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>120</y>
+      <x>110</x>
+      <y>180</y>
       <width>55</width>
       <height>16</height>
      </rect>
@@ -56,8 +56,8 @@
    <widget class="QLabel" name="LbSexo">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>160</y>
+      <x>110</x>
+      <y>210</y>
       <width>55</width>
       <height>16</height>
      </rect>
@@ -69,8 +69,8 @@
    <widget class="QLabel" name="LbEmail">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>200</y>
+      <x>110</x>
+      <y>240</y>
       <width>55</width>
       <height>16</height>
      </rect>
@@ -82,8 +82,8 @@
    <widget class="QPushButton" name="btnGuardar">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>250</y>
+      <x>240</x>
+      <y>320</y>
       <width>93</width>
       <height>28</height>
      </rect>
@@ -95,8 +95,8 @@
    <widget class="QPushButton" name="btnLimpiar">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>250</y>
+      <x>390</x>
+      <y>320</y>
       <width>93</width>
       <height>28</height>
      </rect>
@@ -108,9 +108,9 @@
    <widget class="QLineEdit" name="txtNombre">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>40</y>
-      <width>231</width>
+      <x>190</x>
+      <y>120</y>
+      <width>301</width>
       <height>22</height>
      </rect>
     </property>
@@ -118,9 +118,9 @@
    <widget class="QLineEdit" name="txtApellido">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>80</y>
-      <width>231</width>
+      <x>190</x>
+      <y>150</y>
+      <width>301</width>
       <height>22</height>
      </rect>
     </property>
@@ -128,9 +128,9 @@
    <widget class="QLineEdit" name="txtCedula">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>120</y>
-      <width>231</width>
+      <x>190</x>
+      <y>180</y>
+      <width>301</width>
       <height>22</height>
      </rect>
     </property>
@@ -138,9 +138,9 @@
    <widget class="QComboBox" name="cbSexo">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>160</y>
-      <width>181</width>
+      <x>190</x>
+      <y>210</y>
+      <width>221</width>
       <height>22</height>
      </rect>
     </property>
@@ -165,14 +165,79 @@
      </property>
     </item>
    </widget>
-   <widget class="QLineEdit" name="txtEmail">
+   <widget class="QLineEdit" name="txtEmaill">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>200</y>
+      <x>190</x>
+      <y>240</y>
+      <width>301</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LbBuscarCedula">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>90</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BUSCAR POR CEDULA:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtBuscarCedula">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>90</y>
       <width>231</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="maxLength">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBuscar">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>80</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BUSCAR</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LbFechaNacimiento">
+    <property name="geometry">
+     <rect>
+      <x>64</x>
+      <y>270</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fecha Nacimiento</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtFechaNacimiento">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>270</y>
+      <width>301</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>25</number>
     </property>
    </widget>
   </widget>
@@ -181,7 +246,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>726</width>
+     <width>661</width>
      <height>26</height>
     </rect>
    </property>

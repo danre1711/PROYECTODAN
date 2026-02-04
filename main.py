@@ -2,7 +2,7 @@ import sys
 
 from PySide6.QtWidgets import QApplication
 
-from SERVICIOS.persona import PersonaServicio
+from Servicios.persona import PersonaServicio
 
 app = QApplication()
 vtn_principal = PersonaServicio()
